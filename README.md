@@ -1,2 +1,2 @@
-# seattle-academy-library
+# metateam-academy-library
 
