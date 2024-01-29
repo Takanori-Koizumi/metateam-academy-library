@@ -15,7 +15,7 @@ import jp.co.seattle.library.service.UsersService;
 /**
  * ログインコントローラー
  */
-@Controller /** APIの入り口 */
+@Controller //APIの入り口
 public class LoginController {
 	final static Logger logger = LoggerFactory.getLogger(LoginController.class);
 
@@ -43,7 +43,7 @@ public class LoginController {
 
 		// ユーザーが存在すればログイン、存在しなければエラー(タスク２)
 
-		
+		// 一覧画面に遷移する
 		return "redirect:/home";
 	}
 }
