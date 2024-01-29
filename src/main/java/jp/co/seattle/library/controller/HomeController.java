@@ -23,6 +23,9 @@ public class HomeController {
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String transitionHome(Model model) {
 		//書籍の一覧情報を取得（タスク３）
+		
+		
+		// 一覧画面に遷移する		
 		return "home";
 	}
 
