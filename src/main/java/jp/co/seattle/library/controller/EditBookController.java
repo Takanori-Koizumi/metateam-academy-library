@@ -31,7 +31,7 @@ public class EditBookController {
 	private BookUtil bookUtil;
 
 	@RequestMapping(value = "/editBook", method = RequestMethod.GET)
-	public String transitionEdit(Locale locale, int bookId, Model model) {
+	public String transitionDisplay(Locale locale, int bookId, Model model) {
 		logger.info("Welcome EditBooks.java! The client locale is {}.", locale);
 		model.addAttribute("bookInfo", booksService.getBookInfo(bookId));
 		return "editBook";
