@@ -54,8 +54,8 @@ public class AccountController {
 		UserInfo userInfo = new UserInfo();
 		userInfo.setEmail(email);
 		userInfo.setPassword(password);
-		usersService.registUser(userInfo);
-		return "redirect:/login";
+		usersService.registUserInfo(userInfo);
+		return "login";
 	}
 
 }
